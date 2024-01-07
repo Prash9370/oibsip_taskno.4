@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+body {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #ecf0f3;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#heading{
+  font-family: 'Lemon', serif;
+  font-size: 5vw;
+  font-weight: bolder;
+  margin-bottom: 5vw;
+}
+.container {
+  background-color: #ecf0f3;
+  padding: 20px;
+  border-radius: 20px;
+  width: 300px;
+  box-shadow: 10px 10px 20px #bdc3c7, -10px -10px 20px #ffffff;
+  text-align: center;
+}
+
+h2 {
+  color: #555;
+}
+
+.neomorphic-input {
+  margin: 15px 0;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: #ecf0f3;
+  box-shadow: inset 6px 6px 10px #bdc3c7, inset -6px -6px 10px #ffffff;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.signup-container {
+  display: none;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px #c9c9c9, -10px -10px 20px #ffffff;
+  width: 300px;
+  text-align: center;
+  background-color: #ecf0f3;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+#body {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  font-family: 'Lemon', serif;
+  text-shadow: 2px 2px 5px skyblue;
+  background: linear-gradient(to right, #333, #555);
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.main {
+  padding: 20px;
+}
+
+.project-container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.project-info {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+}
+
+.project-image {
+  width: 300px;
+  border-radius: 8px;
+}
+
+.github-link {
+  margin-top: 10px;
+  display: block;
+  color: #fa6767;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}

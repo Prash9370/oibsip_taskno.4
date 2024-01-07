@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Login Page</title>
+</head>
+<body>
+  <div id="heading">Oasis LogIn Authentication</div>
+  <div class="container" id="container">
+    <h2>Login</h2>
+    <div id="loginForm">
+      <div class="neomorphic-input">
+        <input type="text" id="username" placeholder="Username" required>
+      </div>
+      <div class="neomorphic-input">
+        <input type="password" id="password" placeholder="Password" required>
+      </div>
+      <div style="text-align: left; margin-left: 10px;">
+        <a href="#">Forgot Password?</a>
+      </div>
+      <button type="button" onclick="signupvisible()">Sign Up</button>
+      <button type="submit" id="proceed" onclick="login()">Login</button>
+    </div>
+  </div>
+  <div class="signup-container" id="signup-container">
+    <h2>Sign Up</h2>
+    <div class="signup-form">
+      <div class="form-group">
+        <input type="text" id="signup_uname" placeholder="Username" required>
+    </div>
+    <div class="form-group">
+        <input type="email" id="email"laceholder="Email" required>
+    </div>
+    <div class="form-group">
+        <input type="password" id="signuppass" placeholder="Password" required>
+    </div>
+    
+        <div class="form-group">
+            <button onclick="loginvisible()">Login</button>
+            <button onclick="signup(event)">Sign Up</button>
+        </div>
+      </div>
+</div>
+<div class="body" id="body">
+  <div class="header">
+    <h1>Oasis Infotech<br>Web Development Internship Level 2</h1>
+  </div>
+
+  <div class="main">
+    <div class="project-container">
+      <div class="project-info">
+        <h2>Calculator</h2>
+        <p>
+          This project involved creating a basic calculator application. The goal was to implement mathematical operations such as addition, subtraction, multiplication, and division. The user interface was designed to be user-friendly and responsive.
+        </p>
+        <p>
+          <a href="https://oasis-calci.netlify.app/" class="project-link" target="_blank">View Calculator Project</a>
+        </p>
+        <a href="https://github.com/Prash9370/oibsip_taskno.1" class="github-link" target="_blank">GitHub Repository</a>
+      </div>
+      <img src="./imgs/calci.png" alt="Calculator Project" class="project-image">
+    </div>
+    
+    <div class="project-container">
+      <div class="project-info">
+        <h2>Tribute Page</h2>
+        <p>
+          The Tribute Page project required creating a webpage to honor and pay tribute to a chosen individual or topic. The page included information about the chosen subject, images, and a design that reflects the significance of the tribute.
+        </p>
+        <p>
+          <a href="https://chhatrapati-shivaji-maharaj.netlify.app/" class="project-link" target="_blank">View Tribute Page Project</a>
+        </p>
+        <a href="https://github.com/Prash9370/oibsip_taskno.2" class="github-link" target="_blank">GitHub Repository</a>
+      </div>
+      <img src="./imgs/tribute.png" alt="Tribute Page Project" class="project-image">
+    </div>
+
+    <div class="project-container">
+      <div class="project-info">
+        <h2>Basic To-Do App</h2>
+        <p>
+          The Basic To-Do App project focused on building a simple task management application. Users could add tasks, mark them as completed, and delete them. The application provided a clean and intuitive interface for managing daily tasks.
+        </p>
+        <p>
+          <a href="https://oasis-todo-list.netlify.app/" class="project-link" target="_blank">View To-Do App Project</a>
+        </p>
+        <a href="https://github.com/Prash9370/oibsip_taskno.3" class="github-link" target="_blank">GitHub Repository</a>
+      </div>
+      <img src="./imgs/todo.png" alt="To-Do App Project" class="project-image">
+    </div>
+
+    <div class="project-container">
+      <div class="project-info">
+        <h2>Login Page</h2>
+        <p>
+          The Login Page project focused on implementing a secure and user-friendly login interface. It included features such as user authentication, password validation, and a clean design. Security considerations were a priority in this project.
+        </p>
+        <p>
+          <a href="https://oasis-login-auth.netlify.app/" class="project-link" target="_blank">View Login Page Project</a>
+        </p>
+        <a href="https://github.com/Prash9370/oibsip_taskno.4" class="github-link" target="_blank">GitHub Repository</a>
+      </div>
+      <img src="./imgs/login.png" alt="Login Page Project" class="project-image">
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2024 Prashant Shinde</p>
+  </div>
+</div>
+  <script src="./password.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
